@@ -19,7 +19,7 @@
 ## Run the Bank_App
 ### `npm start`
 
-## Run the client & server with concurrently
+## Run the client & server of greenmartapp with concurrently
 ### `npm run dev`
 
 ## Run the Express server only
