@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
+import backvideo2 from '../video/backvideo2.mp4'
+
 
 function Login() {
     const [user, setUser] = useState({
@@ -27,6 +29,10 @@ function Login() {
 
     return (
         <div className="login-page">
+            <video autoPlay loop muted>
+                <source src={backvideo2} type="video/mp4" />
+            </video>
+        <div >
             <form onSubmit={loginSubmit}>
                 <h2>Login</h2>
                 <input type="email" name="email" required
@@ -40,6 +46,7 @@ function Login() {
                     <Link to="/register">Register</Link>
                 </div>
             </form>
+        </div>
         </div>
     )
 }

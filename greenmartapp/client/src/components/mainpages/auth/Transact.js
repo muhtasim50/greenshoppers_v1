@@ -113,6 +113,7 @@ function Transact() {
             <div className="login-page">
 
                 <form onSubmit={balanceSubmit}>
+                    <h2 style={{color: "black",backgroundColor: "lightblue"}}>Green Bank</h2>
                     <input type="account" name="account" required
                     placeholder="accountID" value={userrr.account} onChange={onChangeInput2} />
                     <div className="row">
@@ -144,7 +145,7 @@ function Transact() {
 
                     <div className="row">
                         <button type="submit">Transfer</button>
-                        <Link to="/">Home</Link>
+                        <Link to="/"><h3 style={{color: "black"}}>Home</h3></Link>
                     </div>
                 </form>
             </div>

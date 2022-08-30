@@ -57,7 +57,7 @@ function Header() {
             </div>
 
             <ul style={styleMenu}>
-                <li><Link to="/">{isAdmin ? 'Products' : 'Shop'}</Link></li>
+                <li><Link to="/transfermoney">{isAdmin ? 'GreenBank' : 'GreenBanking'}</Link></li>
 
                 {isAdmin && adminRouter()}
 

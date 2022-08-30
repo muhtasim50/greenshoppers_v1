@@ -42,7 +42,7 @@ function OrderHistory() {
                         <th>Sender Account</th>
                         <th>Receiver Account</th>
                         <th>Date of Purchased</th>
-                        <th>Testing</th>
+                        <th>Ordered Products</th>
                         {/* <th>Product ID</th> */}
                     </tr>
                 </thead>
