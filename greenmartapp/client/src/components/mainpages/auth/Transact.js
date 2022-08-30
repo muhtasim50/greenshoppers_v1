@@ -70,7 +70,7 @@ function Transact() {
             alert("You have successfully placed an order.")
             // console.log(cart)
             // console.log("The payment was succeeded!", e);
-            // You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
+            
             // Cart.tranSuccess()
             // try{
             //     tranSuccess()
